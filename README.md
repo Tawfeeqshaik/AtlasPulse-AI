@@ -40,7 +40,7 @@ Analytics dashboard updated
 ## ✨ Key Features
 
 ### 🔍 AI-Powered Image Analysis
-Gemini 3.5 Flash Vision analyzes uploaded photos and returns:
+Gemini 2.5 Pro Vision analyzes uploaded photos and returns:
 - Issue category (Pothole, Water Leakage, Garbage Dump, etc.)
 - Severity level (1-100)
 - Confidence score
@@ -109,7 +109,7 @@ Gemini drafts a complete formal complaint letter including:
 - Express Node server for deployment handling
 
 ### AI & API
-- Gemini 3.5 Flash (4 separate AI calls)
+- Gemini 2.5 Pro (4 separate AI calls)
 - @google/genai SDK
 
 ### Deployment
@@ -120,7 +120,7 @@ Gemini drafts a complete formal complaint letter including:
 
 ## 🤖 Gemini AI Integration
 
-AtlasPulse AI makes 4 separate Gemini API calls using `gemini-3.5-flash`:
+AtlasPulse AI makes 4 separate Gemini API calls using `gemini-2.5-pro`:
 
 | Call | Purpose | Input | Output |
 |------|---------|-------|--------|
@@ -254,25 +254,6 @@ The app manages navigation dynamically using React state routing:
 
 ---
 
-## 📸 Screenshots
-
-### Landing Page
-![Landing](screenshots/landing.png)
-
-### AI Analysis
-![Analysis](screenshots/analysis.png)
-
-### Municipal Action Request
-![Letter](screenshots/letter.png)
-
-### Live Grid Map
-![Map](screenshots/map.png)
-
-### Analytics Command
-![Analytics](screenshots/analytics.png)
-
----
-
 ## 👨‍💻 Developer
 
 **Tawfeeq Shaik**
@@ -287,6 +268,6 @@ MIT License — feel free to use and modify.
 
 ---
 
-*Built with Gemini 3.5 Flash, Leaflet Map, Firebase, and React*
+*Built with Gemini 2.5 Pro, Leaflet Map, Firebase, and React*
 *Deployed on Google Cloud Run*
 *Chennai, India 🇮🇳*
