@@ -4,7 +4,7 @@
 
 AtlasPulse AI is an AI-powered civic issue reporting and automated escalation platform that transforms how citizens report and resolve community infrastructure problems in Chennai, India.
 
-![AtlasPulse AI](https://atlaspulse-ai-381730672452.asia-southeast1.run.app)
+[AtlasPulse AI](https://atlaspulse-ai-381730672452.asia-southeast1.run.app)
 
 ## 🌐 Live Demo
 **[https://atlaspulse-ai-381730672452.asia-southeast1.run.app](https://atlaspulse-ai-381730672452.asia-southeast1.run.app)**
