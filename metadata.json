@@ -1,0 +1,10 @@
+{
+  "name": "AtlasPulse AI",
+  "description": "AI-Powered Civic Civic Issue Reporting and Automated Escalation Platform",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

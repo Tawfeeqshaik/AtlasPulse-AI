@@ -1,0 +1,11 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /issues/{userId}/{allPaths=**} {
+      // Images can be viewed publicly by anyone referencing the report
+      allow read: if true;
+      // Image upload is restricted to authenticated users writing to their own namespace
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}

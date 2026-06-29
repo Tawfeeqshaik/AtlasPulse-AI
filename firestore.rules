@@ -1,0 +1,35 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper check for user authentication status
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    // Helper to verify ID format and size
+    function isValidId(id) {
+      return id is string && id.size() <= 128;
+    }
+
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Citizens and User profiles
+    match /users/{userId} {
+      allow read, write: if true;
+    }
+
+    // Civic issues collection
+    match /issues/{issueId} {
+      // Allow full access to civic issues during development to facilitate guest reporting
+      allow read, write: if true;
+    }
+
+    // Public analytics metrics
+    match /analytics/{analyticsId} {
+      allow read, write: if true;
+    }
+  }
+}
