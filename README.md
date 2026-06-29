@@ -42,7 +42,7 @@ Analytics dashboard updated
 ### 🔍 AI-Powered Image Analysis
 Gemini 3.5 Flash Vision analyzes uploaded photos and returns:
 - Issue category (Pothole, Water Leakage, Garbage Dump, etc.)
-- Severity level (1-10)
+- Severity level (1-100)
 - Confidence score
 - Detailed AI summary
 
