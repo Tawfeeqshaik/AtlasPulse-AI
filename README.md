@@ -277,7 +277,7 @@ The app manages navigation dynamically using React state routing:
 
 **Tawfeeq Shaik**
 - B.Tech CSE AI/ML — Chennai Institute of Technology
-- GitHub: [@Tawfeeqsh](https://github.com/Tawfeeqsh)
+- GitHub: [@Tawfeeqshaik](https://github.com/Tawfeeqshaik)
 
 ---
 
